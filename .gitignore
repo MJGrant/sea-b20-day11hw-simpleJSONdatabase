@@ -25,3 +25,4 @@ build/Release
 node_modules
 output
 .DS_Store
+quotes_test
