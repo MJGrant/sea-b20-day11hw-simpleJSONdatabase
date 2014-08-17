@@ -17,7 +17,7 @@ In the Target field of the Chrome extension, type something like this:
 
 ```http://localhost:3000/bowtiesarecool```
 
-(You can put whatever you want after 3000/). 
+Note: You can put whatever you want after 3000/ - that's the point!
 
 Click POST. 
 
