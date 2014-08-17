@@ -1,0 +1,28 @@
+{
+  "name": "sea-b20-day11hw-simpleJSONdatabase",
+  "version": "1.0.0",
+  "description": "simple JSON database",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MJGrant/sea-b20-day11hw-simpleJSONdatabase.git"
+  },
+  "keywords": [
+    "json"
+  ],
+  "author": "MJGrant",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MJGrant/sea-b20-day11hw-simpleJSONdatabase/issues"
+  },
+  "homepage": "https://github.com/MJGrant/sea-b20-day11hw-simpleJSONdatabase",
+  "dependencies": {
+    "express": "^4.8.4"
+  },
+  "devDependencies": {
+    "body-parser": "^1.6.4"
+  }
+}
