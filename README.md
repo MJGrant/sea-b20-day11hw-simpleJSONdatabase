@@ -15,7 +15,7 @@ In Terminal, start this project's server with:
 
 In the Target field of the Chrome extension, type something like this:
 
-```http://localhost:3000/bowtiesarecool```
+```http://localhost:3000/bowtiesarecool ```
 
 Note: You can put whatever you want after 3000/ - that's the point!
 
