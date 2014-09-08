@@ -1,6 +1,7 @@
 //Simple JSON database app
-//To use: 
-//$ server.js
+//To use:
+//$ node server.js
+//use Chrome REST Console to test
 
 var express = require('express');
 var app = express();
@@ -15,12 +16,12 @@ app.get('/', function(req, res) {
 });
 
 app.post('/:some_name', function(req, res) {
-  var input = req.params.some_name;
+  var name = req.params.some_name;
   var inputObj = {
     name: "input",
-    content: input
+    content: name
   };
-  var outputFilename = './output/' + input + ".json";
+  var outputFilename = './output/' + name + ".json";
   fs.writeFile(outputFilename, JSON.stringify(inputObj, null, 4), function(err) {
       if (err) {
         console.log(err);
