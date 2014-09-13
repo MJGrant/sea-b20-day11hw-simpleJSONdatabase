@@ -1,0 +1,1 @@
+This directory contains the program's .json output. The .gitignore file prevents any exported .json files from being pushed to github.
